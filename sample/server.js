@@ -4,8 +4,8 @@ var port = 3300;
 var host = 'localhost';
 
 var opts = {
-	port: port,
-	master: true
+    port: port,
+    master: true
 }
 
 var masterConsole = MasterConsole.createMasterConsole(opts);

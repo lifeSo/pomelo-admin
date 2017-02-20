@@ -5,15 +5,15 @@ var port = 3300;
 var host = 'localhost';
 
 var opts = {
-	id: 'test-server-1',
-	type: 'test',
-	host: host,
-	port: port,
-	info: {
-		id: 'test-server-1',
-		host: host,
-		port: 4300
-	}
+    id: 'test-server-1',
+    type: 'test',
+    host: host,
+    port: port,
+    info: {
+        id: 'test-server-1',
+        host: host,
+        port: 4300
+    }
 }
 
 var monitorConsole = MonitorConsole.createMonitorConsole(opts);
